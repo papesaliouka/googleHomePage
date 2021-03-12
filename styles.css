@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+.li-container{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.li{
+    margin-right: 15px;
+
+}
+
+.li a{
+    text-decoration: none;
+    color: black
+}
+.google-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    margin: 20px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.autres-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 148px;
+}
+
+.autres{
+    justify-self: flex-start;
+    margin-top: -96px;
+}
+
+.senegal-container{
+    padding: 20px 20px;
+}
+.senegal{
+    padding: 48px auto;
+    margin-left: 20px;
+}
+
+.footer-container{
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.footer-container li{
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 30%;
+}
+.input{
+    border: none;
+    padding: 10px 20%;
+    width: 80%;
+}
+.input :focus{
+    border: 0.5px solid grey;
+}
